@@ -121,7 +121,14 @@ background-color:orange;
     /* main content */
     main{
         /* push main content down to accomadate larger header */
-        margin-top:79px;
-        
+        margin-top:79px;        
+    }
+
+}
+
+/* media query for small laptops screen size 992px and higher */
+@media screen and (min-width: 992px){
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 }
